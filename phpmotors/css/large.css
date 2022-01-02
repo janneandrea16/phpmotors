@@ -1,0 +1,16 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 57rem) {
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+/*Admin Page*/
+.admin-main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2em;
+}
+

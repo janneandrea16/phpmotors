@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHP Motors | Log in</title>
+    <link href="../css/small.css" rel="stylesheet">
+    <link href="../css/medium.css" rel="stylesheet">
+    <link href="../css/large.css" rel="stylesheet">
+</head>
+<body>
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/header.php'; ?>
+    <nav>
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/navigation.php'; ?>
+    </nav>
+<div>
+    <h2>Server Error</h2>
+    <p>Sorry our server seems to be experiencing some technical difficulties.Please come back later.
+</div>
+    
+<hr class="line">
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/footer.php'; ?>
+</body>
+</html>

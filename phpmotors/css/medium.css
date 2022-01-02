@@ -1,0 +1,170 @@
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+
+    .button{
+        background-color: var(--accent2-color);
+        color: var(--accent4-color);
+        text-align: center;
+        width: 15%;
+        height: 5%;
+        margin: auto;
+        position: relative;
+        left:auto; 
+        transform: translate(0%);
+        }
+
+    body{
+        max-width: 960px;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        border: 4px solid var(--accent2-color);
+        border-radius: 8px;
+        background-color: var(--accent4-color);
+        }
+        
+    html{
+        background-color: #cccccc;
+        background-repeat: repeat;
+        background-position: center;
+        }
+        
+    .main-home{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 3em;
+        }
+
+
+    .content2{
+        display: grid;
+        grid-column: 2/3;
+        margin:0;
+        }
+
+    .contain-upgrades{
+        margin: 2em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+
+
+    .myaccount{
+        transform: translateY(-270%);
+        text-decoration: none;
+        color: var(--accent3-color);
+        float: right;
+        margin: 5px;
+        font-weight: bold;
+    }
+
+/*Admin Page*/
+.admin-main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.user-info h2{
+    text-align: left;
+}
+
+/* For vehicle display in classification view */
+#inv-display {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#inv-display h2{
+    font-size: 1rem;
+}
+
+#inv-display li {
+    margin:2em;
+    max-width: 200px;
+    flex: 1 0 auto;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+#inv-display div {
+    width: 100%;
+}
+
+/*vehicle Detail*/
+
+.vehicle-detail-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.vehicle-detail-container h1{
+    text-align: center;
+}
+
+.vehicle-detail-container .details{
+    display: flex;
+    padding: 5px;
+}
+
+.vehicle-detail-container .details h2{
+    display: none;
+}
+
+.vehicle-detail-container .details .thumbnail {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-right: 5px;
+}
+
+.vehicle-detail-container .details .thumbnail img{
+    padding-bottom: 5px;
+    max-width: 100%;
+}
+
+.vehicle-detail-container .details img{
+    max-width: 50%;
+    max-height: 500px;
+    align-self: center;
+}
+
+.vehicle-detail-container .details p{
+    font-family: var(--font-paragraph);
+    font-size: 0.9rem;
+}
+
+.vehicle-detail-container .details .features{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-family: var(--font-paragraph);
+    border-collapse: collapse;
+    width: 60%;
+}
+ 
+td,th {
+    border: 1px solid var(--accent1-color);
+    text-align: left;
+    padding: 8px;
+}
+ 
+tr:nth-child(even) {
+    background-color: var(--accent6-color);
+}
+
+.img-content ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.vehicle-review-messages{
+    text-align: left;
+}
+
+
+}
